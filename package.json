@@ -1,0 +1,21 @@
+{
+  "name": "unions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "node": "node src/index.js",
+    "typescript": "tsc --project tsconfig.json",
+    "start": "npm-run-all typescript node",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}
